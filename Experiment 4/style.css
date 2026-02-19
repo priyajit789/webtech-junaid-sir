@@ -1,0 +1,94 @@
+/* Reset */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+  }
+  
+  nav ul{
+    display:flex;
+    list-style:none;
+  }
+  
+  nav ul li a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+  }
+  
+  .logo{font-size:24px;}
+  
+  /* Hero */
+  .hero{
+    height:420px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600');
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+  }
+  
+  .hero h2{font-size:48px;}
+  .hero button{
+    margin-top:15px;
+    padding:12px 30px;
+    border:none;
+    background:#ff5a3c;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+  }
+  
+  /* Cars */
+  .section-title{
+    text-align:center;
+    margin:40px 0 20px;
+  }
+  
+  .cars{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .card{
+    background:white;
+    padding:25px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+  }
+  
+  .card button{
+    margin-top:10px;
+    padding:10px 20px;
+    border:none;
+    background:#111;
+    color:white;
+    cursor:pointer;
+  }
+  
+  /* About */
+  .about{
+    margin-top:50px;
+    background:white;
+    padding:40px 0;
+    text-align:center;
+  }
+  
+  /* Footer */
+  footer{
+    margin-top:40px;
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+  }
+  
