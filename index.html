@@ -1,112 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Technology Workshop</title>
+    <title>My Portfolio</title>
 </head>
-<style> 
-body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  background:#f4f6f8;
-}
 
-/* header */
-header{
-  background:#2c3e50;
-  color:white;
-  padding:30px;
-  text-align:center;
-}
-
-/* main layout */
-.container{
-  max-width:1000px;
-  margin:30px auto;
-  padding:0 15px;
-}
-
-/* paragraph */
-.intro{
-  text-align:center;
-  margin-bottom:30px;
-  font-size:18px;
-}
-
-/* cards */
-.grid-small{
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  gap:15px;
-  margin: 15px;
-}
-
-.grid-small .card small {
-    padding: 200px;
-    margin: 10px;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   
-
-}
-
-
-.grid-big{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:20px;
-}
-
-.card,.card {
-  background:white;
-  padding:20px;
-  border-radius:10px;
-  box-shadow:0 3px 8px rgba(0,0,0,0.08);
-  text-align:center;
-  text-decoration: none;
-}
-
-/* .small{ height:100px; }
-.big{ height:160px; font-size:20px; } */
-
-/* mobile */
-@media(max-width:800px){
-  .grid-small{ grid-template-columns:repeat(2,1fr); }
-  .grid-big{ grid-template-columns:1fr; }
-}
-
-</style>
 <body>
 
-<header>
-    <h1>My Basic Website</h1>
-  </header>
-  
-  <div class="container">
-  
-    <p class="intro">
-      This is a simple paragraph section. You can write any description here.
-    </p>
-  
-    <!-- four small cards -->
-    <div class="grid-small">
-      <div class="card small"><a href="./Experiment 1/index.html">Experiment 1</a></div>
-      <div class="card small"><a href="./Experiment 2/index.html">Experiment 2</a></div>
-      <div class="card small"><a href="./Experiment 3/index.html">Experiment 3 </a></div>
-      <div class="card small"><a href="./Experiment 4/index.html">Experiment 4</a></div>
-    </div>
-  
-    <!-- two big cards -->
-    <div class="grid-big">
-      <div class="card big"><b>Name</b><P>Priyajit Gupta</P><br><b>USN:</b><p>24BTRCN059</p><b>Department:</b><p>CSE Gen B</p></div>
-      <div class="card big"><b>Faculty:</b><p>Junaid Rasool</p><br></br><b>Department:</b><p>Computer science and engineering</p></div>
-    </div>
-  
-  </div>
-  
+<h1>My Portfolio</h1>
+
+<h2>My Photo</h2>
+<img src="asset/photo.png" alt="My Photo" width="200">
+
+<h2>About Me</h2>
+<p>Hello! My name is Priyajit Gupta. 
+    I am an aspiring developer with a strong interest in programming and modern technology. 
+    I focus on learning core concepts, building small projects, and continuously improving my technical skills. 
+    I am passionate about growth, creativity, and using technology to make everyday tasks easier.
     
+    </p>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>Python</li>
+    <li>Basic Programming</li>
+    <li>Operating system</li>
+    <li>Css</li>
+    <li>Javascript</li>
+</ul>
+
+
+<h2>Projects</h2>
+
+<h3>Project 1</h3>
+<p>My portfolio website </p>
+
+<h3>Project 2</h3>
+<p>Rent a car</p>
+
+<h2>Contact:+917204660137</h2>
+<p>Email: Priyajitgupta176@email.com</p>
+
+<hr>
+<p>© 2026 My Portfolio</p>
+
 </body>
 </html>
